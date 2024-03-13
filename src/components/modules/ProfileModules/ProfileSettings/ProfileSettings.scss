@@ -1,0 +1,16 @@
+.profile-settings {
+  padding-top: 10px;
+  display: flex;
+  gap: 100px;
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__password-change {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,12 @@
+.custom-input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  &__label {
+  }
+
+  &__errors {
+    font-size: 13px;
+    color: rgb(214, 35, 35);
+  }
+}

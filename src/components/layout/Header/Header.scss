@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 10px;
+  &__logo {
+    display: flex;
+    align-items: flex-end;
+    img {
+      padding-top: 3px;
+      height: 35px;
+    }
+  }
+
+  &__dropdown {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__catalog {
+    min-height: 100%;
+    max-height: 100%;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #006b77;
+    border-radius: 5px;
+  }
+
+  &__search {
+    min-width: 10rem;
+    max-width: 15rem;
+  }
+
+  &__icons {
+    display: flex;
+    gap: 15px;
+    :hover {
+      color: #006b77;
+    }
+  }
+  &__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.9rem;
+    .icon {
+      font-size: 20px;
+    }
+  }
+
+  &__profile {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+}
